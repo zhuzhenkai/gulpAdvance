@@ -1,0 +1,81 @@
+.swiper-container{
+	background:#444;
+	.swiper-wrapper{
+		background:red;
+
+		.swiper-slide{
+			background:#ccc;
+
+			.zong{
+				width:100%;
+				height:100%;
+				background:url(../img/2.jpg);
+				background-size:100% 100%;
+				display:flex;
+				flex-flow:wrap column;
+
+				.own{
+					width:100%;
+					height:40%;
+					display:flex;
+					flex-flow:nowrap row;
+					justify-content:space-around;
+					align-items:center;
+					
+
+					.left{
+						height:50%;
+						width:10px;
+						font-size:16px;
+						color:green;
+					}
+
+					.pic{
+						width:70%;
+						height:80%;
+						border-radius:50%;
+						border:1px solid #ccc;
+						background:url('../img/1.jpg');
+						background-size:100% 100%;	
+					}
+					
+					.right{
+						height:50%;
+						width:10px;
+						font-size:16px;
+						color:green;
+					}
+				}
+				.zhong{
+				
+					height:20%;
+					width:100%;
+					color:#49cc91;
+					font-weight:900;
+					font-size:40px;
+				}
+				.jianjei{
+					width:100%;
+					height:40%;
+					display:flex;
+					flex-flow:nowrap column;
+					justify-content:center;
+					align-items:center;
+
+					div{
+						height:15%;
+						width:60%;
+						font-size:20px;
+						font-weight:900;
+						color:gray;
+						display:flex;
+						justify-content:center;
+						align-items:center;
+					}
+				}
+			}
+		}
+	}
+	
+}
+
