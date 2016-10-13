@@ -180,7 +180,7 @@ gulp.task('watch',function(){
        watch('src/styles/**/*.*',{
             name:'CSS',
             emitOnGlob:false,      
-      }, nj 
+      },
       queue.getHandler('sass','verCss','html'));
       watch('src/scripts/**/*.js',{
             name:'JS',
